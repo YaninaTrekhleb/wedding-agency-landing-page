@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,300,400,700|Dancing+Script&display=swap');
+
+body {
+    max-width: 100%;
+    margin: auto;
+}
+
+.left-menu-hamburger {
+    display: none;   
+}
+
+.navbar.navbar-expand-lg.flex-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+}
+
+a.navbar-brand {
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.2em;
+}
+
+a.navbar-brand:hover,
+a.nav-link:hover {
+    color: #dfdbdb;
+}
+
+a.nav-link {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-top: 12px;
+}
+
+div.grey-one {
+    flex: 1;
+}
+
+ul.navbar-nav.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container .row img {
+    width: 100%;
+}
+
+h1.display-4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+
+p.lead {
+    font-family: 'Barlow', sans-serif;
+}
+
+.container h2,
+.form-container h2 {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.container img {
+    padding: 10px;
+}
+
+.flex-form-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-form-row {
+    display: flex;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.form-img-wrapper {
+    flex: 1;
+    margin: 0 20px;
+}
+.flex-form-row img {
+    width: 100%;
+}
+
+.form-wrapper {
+    flex: 1;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+form p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1em;
+}
+
+div.form-group input,
+textarea.form-control {
+    font-family: 'Barlow', sans-serif;
+}
+
+#exampleFormControlTextarea {
+    margin-bottom: 50px;
+}
+
+.btn.btn-primary {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #9eadbd;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #dfdbdb;
+}
+
+@media screen and (max-width: 576px) {
+   
+    a.navbar-brand {
+        display: flex;
+        font-size: 1.5em;
+       
+    }
+
+    .navbar-nav.flex {
+        display: none;
+    }
+
+    h1.display-4,
+    .container h2,
+    .form-container h2 {
+        font-size: 2em;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-6.col-md-4,
+    div.col-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .form-img-wrapper {
+        display: none;
+    }
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-6.col-md-4,
+    div.col-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-12.col-md-8{
+        max-width: 100%;
+    }
+
+    .form-img-wrapper {
+        display: none;
+    }
+}

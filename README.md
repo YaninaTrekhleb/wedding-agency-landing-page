@@ -1,2 +1,4 @@
-# wedding-agency-landing-page
-Landing page for Wedding Agency
+# Wedding Agency landing page
+
+- Used bootstrap tools & own styles.
+- Implemented responsive template.
